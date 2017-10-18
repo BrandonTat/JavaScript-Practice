@@ -13,7 +13,7 @@ const Panes = [
 class Root extends React.Component {
   render() {
     return(
-      <div>
+      <div id="widgets">
         <Clock />
         <Tabs panes={Panes}/>
       </div>
